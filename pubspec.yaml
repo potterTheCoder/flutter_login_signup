@@ -1,0 +1,31 @@
+name: flutter_login_signup
+description: A simple login and signup Flutter project for mobile.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  cupertino_icons: ^1.0.0
+  english_words: ^3.1.5
+  fluttertoast: ^7.1.1
+  flutter_staggered_animations: ^0.1.2
+  page_transition: ^1.1.7+2
+  shared_preferences: ^0.5.12+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - raw/images/ic_logo.png
